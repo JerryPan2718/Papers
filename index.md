@@ -1,6 +1,6 @@
 ## ML System
 
-As inspired by many cool researchers and innovators, I compiled my paper reading summaries and research reflections here. I'm a 2nd year undergrad in UC Berkeley. 
+As inspired by many cool researchers and innovators, I compiled my paper reading summaries and research reflections here. Check out my paper summaries [here](https://github.com/JerryPan2718/Papers/)! 
 
 ## Key systems design principles
 * Isolate the common case [Lampson 84]
