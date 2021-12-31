@@ -144,3 +144,6 @@ Results:
 ## QKV Combined Computation
 <img width="1744" alt="Screen Shot 2021-12-31 at 11 51 46" src="https://user-images.githubusercontent.com/37657480/147837555-5a78e353-c252-46bc-ba72-e24d1ca26de3.png">
 
+## FasterTransformer by NVIDIA
+(https://github.com/NVIDIA/FasterTransformer)
+
