@@ -1,7 +1,7 @@
 ## ML System
 ### Summaries of readings in operating systems, networking and machine learning
 
-As inspired by many cool researchers and innovators, I compiled my paper reading summaries and research reflections here. Check out my paper summaries [here](https://github.com/JerryPan2718/Papers/)! 
+As inspired by my research mentor Paras, I compiled my paper reading summaries and research reflections here. Check out my paper summaries [here](https://github.com/JerryPan2718/Papers/)! 
 
 ## Key systems design principles
 * Isolate the common case [Lampson 84]
