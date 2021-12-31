@@ -14,7 +14,7 @@ Results:
 - Transformer-XL learns dependency that is 80% longer than RNNs and 450% longer than vanilla Transformers, achieves better performance on both short and long sequences, and is up to 1,800+ times faster than vanilla Transformers during evaluation.
 
 Code: (https://github.com/kimiyoung/transformer-xl/blob/master/pytorch/mem_transformer.py)
-- cat = torch.cat([mems, w], 0) to reuse previous token to avoid recomputation.
+- cat = torch.cat([mems, w], 0) to reuse previous tokens to avoid recomputation.
 - qkv_net() is a nn.Linear().
 
 
@@ -123,10 +123,12 @@ Results:
 (https://tvm.apache.org/2018/03/23/nmt-transformer-optimize)
 
 Limitations:
-- Batch matmul is a major performance hot-spot in Transformer and the current implementation in cuBLAS is not well optimized.
+- Batch matmul is a major performance hotspot in Transformer and the current implementation in cuBLAS is not well optimized.
 
 Results:
-- TVM generated kernel (with schdule optimization) brings at least 13X speed-up for batch matmul computation, and a futher speed up with operator fusion enabled.
+- TVM generated kernel (with schedule optimization) brings at least 13X speedup for batch matmul computation, and a futher speedup with operator fusion enabled.
+	- In Transformer, batch matmul is widely used in the computation of multi-head attention. Using batch matmul, multiple heads in the attention layer can run in parallel, which can help improve the computation efficiency of the hardware.
+
 
 ## TensorFlow Graph Optimizations
 (https://web.stanford.edu/class/cs245/slides/TFGraphOptimizationsStanford.pdf)
