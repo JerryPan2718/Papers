@@ -134,5 +134,11 @@ Results:
 
 # Computation Graph Optimization
 ## Loop-invariant Node Motion(LINM)
+<img width="774" alt="Screen Shot 2021-12-31 at 12 50 43" src="https://user-images.githubusercontent.com/37657480/147838685-3714356c-ec03-4657-b3ba-705bd6c7f07c.png">
+
 ## MatMul replaced by Convolution
+![WechatIMG1296](https://user-images.githubusercontent.com/37657480/147837538-c162c626-c28c-40ce-9646-5e2f771e6704.jpeg)
+
 ## QKV Combined Computation
+<img width="1744" alt="Screen Shot 2021-12-31 at 11 51 46" src="https://user-images.githubusercontent.com/37657480/147837555-5a78e353-c252-46bc-ba72-e24d1ca26de3.png">
+
