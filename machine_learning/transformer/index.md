@@ -1,5 +1,10 @@
 # Transformer: Model Compression, Quantization, Pruning, Speedup
 
+## Intro
+- https://jalammar.github.io/illustrated-transformer/
+- https://jalammar.github.io/illustrated-gpt2/
+
+
 ## Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
 (https://github.com/kimiyoung/transformer-xl)
 
