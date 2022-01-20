@@ -4,6 +4,10 @@
 - https://jalammar.github.io/illustrated-transformer/
 - https://jalammar.github.io/illustrated-gpt2/
 
+![13041641265430_ pic_hd](https://user-images.githubusercontent.com/37657480/148004166-3ad41193-c044-4007-99b9-c14565769a0d.jpg)
+![13031641265348_ pic_hd](https://user-images.githubusercontent.com/37657480/148004148-2836d052-ce66-48a8-986e-97e514423df6.jpg)
+
+
 
 ## Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
 (https://github.com/kimiyoung/transformer-xl)
