@@ -1,6 +1,6 @@
 # MLSys
 
-## Week 1
+## Week 1: Intro
 - What defines great machine learning research?
 	- As the goal of machine learning algorithm is to generalize over a large dataset, good machine learning research should address how the model can generalize over different datasets and tasks, while keeping many other factors in mind, including model training and inference runtime and cost, privacy, robustness, security, ethics, and etc. Good ML research should keep the minimal as necessary for simplicity while maximizing the benefits. Learning = Representation + Evaluation + Optimization
 - What defines great systems research?
@@ -40,3 +40,29 @@
 - Simplicity !=> Accuracy
 - Representable !=> Learnable 
 - Correlation !=> Causation
+
+
+## Week 2: Big Data Systems
+
+### Towards a Unified Architecture for in-RDBMS Analytics
+- Problem: Each new statistical technique must be implemented from scratch in the RDBMS, which leads to a lengthy and complex development process.
+- Idea: A unified architecture for in-database analytics
+	- Performance optimizations for analytics techniques can be studied generically instead of an ad hoc, per-technique fashion.
+	- Two factors that impact performance: 1. The order of data is stored, 2. Parallelization of computations on a single-node multicore RDBMS.
+- Optimization:
+	- Prototype implementations are faster than existing approaches for simple tasks
+	- We can study the factors that impact performance and optimize them in a way that applies across several analytics tasks.
+	- Two factors that impact performance: 1. Data clustering, 2. Parallelism on a single-node multicore system.
+- Implementation
+	- BISMARCK Architecture
+
+
+### Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics
+- Challenges: 1. Data quality and reliability, 2. Increased data staleness with a separate staging area for incoming data before the warehouse, 3. Unstructured data
+- Lakehouse Architecture:
+	- The system store data in a low-cost object store using a standard file format
+	- Metadata layers over data lake storage
+
+
+### Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing
+- Resilient Distributed Datasets: a distributed memory abstarction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner.
