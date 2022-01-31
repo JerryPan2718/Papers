@@ -47,22 +47,48 @@
 ### Towards a Unified Architecture for in-RDBMS Analytics
 - Problem: Each new statistical technique must be implemented from scratch in the RDBMS, which leads to a lengthy and complex development process.
 - Idea: A unified architecture for in-database analytics
+	- Need for unified data platform architecture
+		- Data warehousing functionality
+		- Data lake open direct-access data formats
+	- Convergence towards Lakehouses
+		- First-class support for ML and data science
+		- SOTA performance
 	- Performance optimizations for analytics techniques can be studied generically instead of an ad hoc, per-technique fashion.
 	- Two factors that impact performance: 1. The order of data is stored, 2. Parallelization of computations on a single-node multicore RDBMS.
 - Optimization:
 	- Prototype implementations are faster than existing approaches for simple tasks
 	- We can study the factors that impact performance and optimize them in a way that applies across several analytics tasks.
 	- Two factors that impact performance: 1. Data clustering, 2. Parallelism on a single-node multicore system.
-- Implementation
+- Solutions & Contributions
 	- BISMARCK Architecture
-
+	- Metadata layer
+	- Declarative DataFrame APIs
+- Strength
+	- 1. Data is redundantly stored in data lakes and data warehouses.
+	- 2. Data lakes solved the proliferation of unstructured data, but introduced complex pipelines from the late to the warehouse.
+	- 3. Cost/Execution time are both better. 
+- Weakness
+	- 1. Lakehouses make it harder to take advantage of specialized query optimizers build specifically for BI.
+	- 2. Have to maintain fine-grain permissions for security and privacy. 
+	- 3. Overhead to migrate existing data and infrastructure. 
 
 ### Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics
-- Challenges: 1. Data quality and reliability, 2. Increased data staleness with a separate staging area for incoming data before the warehouse, 3. Unstructured data
+- Challenges: 
+	- 1. Data quality and reliability, 
+	- 2. Increased data staleness with a separate staging area for incoming data before the warehouse, 
+	- 3. Unstructured data
 - Lakehouse Architecture:
 	- The system store data in a low-cost object store using a standard file format
 	- Metadata layers over data lake storage
 
-
 ### Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing
-- Resilient Distributed Datasets: a distributed memory abstarction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner.
+- Problem: how to define abstractions to efficiently execute iterative applications in a distributed setting
+	- Metrics for succeess: runtime
+- Background:
+	- MapReduce and Dryad for big data analytics: provided operators that allowed users to writy parallel computations, but lack abstractions for leveraging distributed memory
+- Solutions
+	- Resilient Distributed Datasets: a distributed memory abstraction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner.
+	- Spark: the system that leverages RDD
+
+
+
