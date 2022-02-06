@@ -90,5 +90,28 @@
 	- Resilient Distributed Datasets: a distributed memory abstraction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner.
 	- Spark: the system that leverages RDD
 
+## Week 3: Hardware for ML
 
+### Mixed Precision Training
+- Solutions & Contributions
+	- Training DNN using half-precision floating point numbers without losing model accuracy or having to modify hyperparameters.
+	- Halves memory requirements and speeds up arithmetic.
+	- 3 Techniques to prevent model accuracy loss
+		- Maintaining a master copy of weights in FP32
+		- Loss-scaling that minimizes gradient values becoming zeros
+		- FP16 arithmetic with accumulation in FP32
 
+### Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks
+- Solutions & Contributions
+	- A novel dataflow called row-stationary (RS) to minimize data movement energy consumption on a spatial architecture by exploiting local data reuse of filter weights and feature map pixels.
+	- An analysis framework that can quantify the energy efficiency for different CNN dataflows under the same hardware constraints.
+
+### Interstellar: Using Halide’s Scheduling Language to Analyze DNN Accelerators
+- Solutions & Contributions
+	- Halide's scheduling language can quickly explore different dataflow and loop blocking choices, and then consider hardware resource optimizations.
+
+### Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration
+- Challenges
+	- NN accelerators are developed in isolation of cross-stack and system-level effects, which makes it difficult to appreciate the impact of System-on-Chip (SoC) resource contention, OS overheads, and programming-stack inefficiencies on overall performance/energy-efficiency.
+- Solutions & Contributions
+	- Gemmini, a full-stack DNN accelerator generator, generates a wide design-space of efficient ASIC accelerators from a flexible architectural template.
