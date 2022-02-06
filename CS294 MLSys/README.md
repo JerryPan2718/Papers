@@ -115,3 +115,6 @@
 	- NN accelerators are developed in isolation of cross-stack and system-level effects, which makes it difficult to appreciate the impact of System-on-Chip (SoC) resource contention, OS overheads, and programming-stack inefficiencies on overall performance/energy-efficiency.
 - Solutions & Contributions
 	- Gemmini, a full-stack DNN accelerator generator, generates a wide design-space of efficient ASIC accelerators from a flexible architectural template.
+![Screen Shot 2022-02-06 at 12 33 46](https://user-images.githubusercontent.com/37657480/152700325-fe79ae44-2846-40d3-9f14-9c0f38d141ad.png)
+
+
