@@ -143,4 +143,5 @@
 - Solutions
 	- Can compose pipeline, tensor, and data parallelism to get near-linear weak scaling on large models by analyzing their communication tradeoffs.
 
+![Screen Shot 2022-02-06 at 12 33 46](https://user-images.githubusercontent.com/37657480/152700325-fe79ae44-2846-40d3-9f14-9c0f38d141ad.png)
 
