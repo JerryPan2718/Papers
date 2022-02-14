@@ -115,3 +115,32 @@
 	- NN accelerators are developed in isolation of cross-stack and system-level effects, which makes it difficult to appreciate the impact of System-on-Chip (SoC) resource contention, OS overheads, and programming-stack inefficiencies on overall performance/energy-efficiency.
 - Solutions & Contributions
 	- Gemmini, a full-stack DNN accelerator generator, generates a wide design-space of efficient ASIC accelerators from a flexible architectural template.
+
+## Week 4: Distributed Deep Learning, Part I: Systems
+
+### Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines
+- Chimera
+	- A novel pipeline parallelism scheme which combines bidirectional pipelines for efficiently training large-scale models.
+	- A synchronous approach and therefore no loss of accuracy.
+	- Reduces the number of bubbles by up to 50% compared with the latest synchronous pipeline approach.
+	- A more balanced activation memory consumption.
+	- Takeaways: for large models that are easily partitioned into balanced stages, clever scheduling of comput and gradient synchronization can reduce pipeline bubbles.
+	- With model replicas, it takes advantage of both model and data parallelism.
+
+### ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning
+- Challenges
+	- Large model >> GPU memory limit
+- Solutions
+	- Infinity offload engine: use CPU, GPU, NVMe as seamless pool of memory, leverage CPU for compute
+	- Memory-centric tiling: handle large operators without splitting model across GPUs
+	- Bandwidth-centric partitioning: goal is to put throughout of all available devices to best use
+	- Overlap-centrix design: minimize pipeline bubbles by interleaving compute and communications
+	- Withouy model code refactoring
+### Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM
+- Challenges
+	- GPU memory capacity is limited
+	- The number of compute operations required can result in unrealistically long training times
+- Solutions
+	- Can compose pipeline, tensor, and data parallelism to get near-linear weak scaling on large models by analyzing their communication tradeoffs.
+
+
