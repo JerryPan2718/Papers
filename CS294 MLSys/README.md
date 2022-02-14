@@ -115,6 +115,7 @@
 	- NN accelerators are developed in isolation of cross-stack and system-level effects, which makes it difficult to appreciate the impact of System-on-Chip (SoC) resource contention, OS overheads, and programming-stack inefficiencies on overall performance/energy-efficiency.
 - Solutions & Contributions
 	- Gemmini, a full-stack DNN accelerator generator, generates a wide design-space of efficient ASIC accelerators from a flexible architectural template.
+![Screen Shot 2022-02-06 at 12 33 46](https://user-images.githubusercontent.com/37657480/152700325-fe79ae44-2846-40d3-9f14-9c0f38d141ad.png)
 
 ## Week 4: Distributed Deep Learning, Part I: Systems
 
@@ -126,6 +127,7 @@
 	- A more balanced activation memory consumption.
 	- Takeaways: for large models that are easily partitioned into balanced stages, clever scheduling of comput and gradient synchronization can reduce pipeline bubbles.
 	- With model replicas, it takes advantage of both model and data parallelism.
+<img width="1400" alt="Screen Shot 2022-02-14 at 14 19 28" src="https://user-images.githubusercontent.com/37657480/153962761-9bd503b1-6887-47ee-bba7-ac10f2170ba2.png">
 
 ### ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning
 - Challenges
@@ -136,6 +138,8 @@
 	- Bandwidth-centric partitioning: goal is to put throughout of all available devices to best use
 	- Overlap-centrix design: minimize pipeline bubbles by interleaving compute and communications
 	- Withouy model code refactoring
+![Screen Shot 2022-02-14 at 15 11 45](https://user-images.githubusercontent.com/37657480/153962705-4d132ab5-4c32-4904-979d-6feaa8fd356b.png)
+
 ### Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM
 - Challenges
 	- GPU memory capacity is limited
@@ -143,5 +147,4 @@
 - Solutions
 	- Can compose pipeline, tensor, and data parallelism to get near-linear weak scaling on large models by analyzing their communication tradeoffs.
 
-![Screen Shot 2022-02-06 at 12 33 46](https://user-images.githubusercontent.com/37657480/152700325-fe79ae44-2846-40d3-9f14-9c0f38d141ad.png)
 
