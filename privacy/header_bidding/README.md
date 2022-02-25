@@ -112,3 +112,5 @@
 	- Bid Request & Bid Response: Object Model 
 	- Enumerated Lists for all categories
 	- Bid Request & Bid Response: Samples
+
+![Screen Shot 2022-02-24 at 22 03 12](https://user-images.githubusercontent.com/37657480/155799055-2ec4cc3b-400b-408f-882c-f8bf658eab35.png)
