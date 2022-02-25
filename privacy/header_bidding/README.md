@@ -104,3 +104,11 @@
 - Results & Data
 	- Desktop and mobile prices both grow significantly.
 	- User demographics/exchanging data between advertisers and data brokers increases displayed ads.
+
+## Real Time Bidding (RTB) Project - OpenRTB API Specification Version 2.5
+- Outline
+	- Required, recommended, and optional APIs
+	- Trasport, Security, Data Format, Data Encoding
+	- Bid Request & Bid Response: Object Model 
+	- Enumerated Lists for all categories
+	- Bid Request & Bid Response: Samples
