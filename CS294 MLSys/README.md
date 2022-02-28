@@ -183,3 +183,4 @@
 	- Designed Zion Facebooks next-generation large-memory training platform that consists of both CPUs and accelerators: Zion scale-up system can be used for training of DLRMs.
 		- Zion introduced the common form factor OCP Accelerator Module (OAM)
 	- Discussed different aspects of training of DLRMs: asynchronous and synchronous training, data-parallelism and model-parallelism patterns map to allreduce and all2all communication primitives.
+![Screen Shot 2022-02-28 at 14 40 28](https://user-images.githubusercontent.com/37657480/156072945-a51431f1-0c1c-4fc3-909f-176de7c56f9c.png)
