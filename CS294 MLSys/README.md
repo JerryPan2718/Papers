@@ -152,4 +152,26 @@
 
 <img width="1207" alt="Screen Shot 2022-02-14 at 15 18 26" src="https://user-images.githubusercontent.com/37657480/153963222-b3fb2aea-16e6-459c-8a36-14eb4432316d.png">
 
+## Week 5: Holiday
+## Week 6: Distributed deep learning, Part II: Scaling Constraints
 
+### Measuring the Effects of Data Parallelism on Neural Network Training
+- Contributions
+	- Experimentally characterized the effects of increasing the batch size on training time, as measured by the number of steps necessary to reach a goal out-of-sample error. 
+	- Studied the above relationship varied with the training algorithm, mode, and dataset, adn found extremely large variation between workloads.
+	- Showed that disagreements in the literature on how batch size affects model quality can largely be explained by differences in metaparameter tuning and compute budgets at different batch sizes.
+- Results
+	- Lots of experimental results
+
+### Scaling Laws for Neural Language Models
+- Contributions & Key Findings
+	- Performance depends strongly on scale, weakly on model shape
+	- Smooth power laws
+	- Universality of overfitting
+	- Universality of training
+	- Transfer improves with test performance
+	- Sample efficiency
+	- Convergence is inefficient
+	- Optimal batch size
+- Summary of scaling laws
+	
