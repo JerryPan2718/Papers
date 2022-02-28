@@ -173,5 +173,6 @@
 	- Sample efficiency
 	- Convergence is inefficient
 	- Optimal batch size
+![Screen Shot 2022-02-28 at 14 18 17](https://user-images.githubusercontent.com/37657480/156068395-2a5737bc-a922-4efd-b30d-ceb8d8be024f.png)
 - Summary of scaling laws
-	
+	![Screen Shot 2022-02-28 at 14 21 51](https://user-images.githubusercontent.com/37657480/156068373-804da422-6c69-4e82-8741-c6bff3c9070e.png)
