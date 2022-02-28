@@ -176,3 +176,10 @@
 ![Screen Shot 2022-02-28 at 14 18 17](https://user-images.githubusercontent.com/37657480/156068395-2a5737bc-a922-4efd-b30d-ceb8d8be024f.png)
 - Summary of scaling laws
 	![Screen Shot 2022-02-28 at 14 21 51](https://user-images.githubusercontent.com/37657480/156068373-804da422-6c69-4e82-8741-c6bff3c9070e.png)
+
+### Deep Learning Training in Facebook Data Centers: Design of Scale-up and Scale-out system
+- Deep learning recommendation models (DLRMs)
+	- Exercise not only compute but also memory capacity as well as memory and network bandwidth. Efficiently scaling training becomes a challenge as the model size and complexity increase. 
+	- Designed Zion Facebooks next-generation large-memory training platform that consists of both CPUs and accelerators: Zion scale-up system can be used for training of DLRMs.
+		- Zion introduced the common form factor OCP Accelerator Module (OAM)
+	- Discussed different aspects of training of DLRMs: asynchronous and synchronous training, data-parallelism and model-parallelism patterns map to allreduce and all2all communication primitives.
