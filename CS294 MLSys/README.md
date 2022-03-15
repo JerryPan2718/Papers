@@ -184,3 +184,20 @@
 		- Zion introduced the common form factor OCP Accelerator Module (OAM)
 	- Discussed different aspects of training of DLRMs: asynchronous and synchronous training, data-parallelism and model-parallelism patterns map to allreduce and all2all communication primitives.
 ![Screen Shot 2022-02-28 at 14 40 28](https://user-images.githubusercontent.com/37657480/156072945-a51431f1-0c1c-4fc3-909f-176de7c56f9c.png)
+
+## Week 7: Project Proposal
+## Week 8: ML Applied to Systems
+
+### Device Placement Optimization with Reinforcement Learning
+- Contributions
+	- Propose a method which learns to optimize device placement for TensorFlow computational graphs.
+	- Use a sequence-to-sequence model to predict which subsets of operations in a TensorFlow graph should run on which of the available devices.
+
+### The Case for Learned Index Structures
+- Background
+	- Indexes are models: a B-Tree-Index can be seen as a model to map a key to the position of a record within a sorted array, a Hash-Index as a model to map a key to a position of a record within an unsorted array, and a BitMap-Index as a model to indicate if a data record exists or not.
+- Contributions
+	- A model can learn the sort order or structure of lookup keys and use this signal to effectively predict the position or existence of records.
+
+### Neural Adaptive Video Streaming with Pensieve
+- Pensieve: use RL to generate ABR algorithms
