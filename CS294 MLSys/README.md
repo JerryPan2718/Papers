@@ -201,3 +201,36 @@
 
 ### Neural Adaptive Video Streaming with Pensieve
 - Pensieve: use RL to generate ABR algorithms
+
+
+## Week 10: Machine Learning Frameworks and Automatic Differentiation
+
+### Automatic differentiation in ML: Where we are and where we should be going?
+- Proposed a functional, typed, and graph-based intermediate representation (IR) for AD to achieve both flexibility/generality and performance
+- Metric: performance, expressive power, usability
+- Related work
+	- Operator overloading (e.g. PyTorch): the derivative problem is dynamically constructed upon execution.
+	- Source transformation (ADIFOR, Tapenade): ST to explicitly construct a program with a reversed control flow.
+	- Dataflow programming (e.g. TensorFlow/Theano): Rely on computation DAGs as intermediate representation without scoping for simplicity and optimization
+### TensorFlow: A System for Large-Scale Machine Learning
+- TensorFlow addresses the growing need for experimenting with new models, training on large datasets, and achieving large-scale production. 
+	- Supports large-scale training and production: both performance and flexibility.
+	- Represent mathematical operators as nodes in the dataflow graph to easily compose novel layers using scripting interface.
+	- Mutable state and its operations are nodes for each of experimentation with different update rules. 
+### TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
+- Declarative tensor expression language
+	- Maps operator's algebraic expression -> possible schedules
+	- Introduces two new schedule primitives
+		- Memory scope -> efficient use of GPU shared memory
+		- Tensorization -> plug-in interface for hardware intrinsics and micro-kernels
+- Automated schedule optimizer
+	- Search space: schedule templates & their tunable knobs
+	- Cost-estimation: gradient-boosted tree
+	- Search algorithm: simulated annealing
+
+### Abstractions for ML Compilations by Tianqi Chen
+- Trend: The software ecosystem tunnel becomes a lot wider from the narrow tunnel.
+
+## Week 11: Efficient ML
+
+### 
