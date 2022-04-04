@@ -235,5 +235,29 @@
 
 
 ## Week 11: Efficient ML
+
+### Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference
+- Contributions
+	- Quantized Inference (Integer-arithmetic-only Inference)
+		- Represents weights and activations as integers
+		- Performs arithmetic operations (e.g., matmul) on the quantized values without dequantizing them
+	- Quantized Training (Quantization-Aware Training)
+		- Weights and activations in FP
+		- Simulates quantization effect during training by applying "fake quantization" to weights and activations.
+
+### Linear Mode Connectivity and the Lottery Ticket Hypothesis
+- Contributions
+	- Study whether a neural network optimizes to the same, linearly connected minimum under different samples of SGD noise. Study iterative magnitude  pruning (IMP), the procedure used by work on the lottery ticket hypothesis to identify subnetworks that could have trained in isolation to full accuracy. These subnetworks only reach full accuracy when they are stable to SGD noise, which either occurs at initialization for small-scale settings (MNIST) or early in training for large-scale settings.
+	- Proposes instability analysis as a way to shed light on how SGD noise affects the outcome of optimizing neural networks.
+
+### FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search
+- Contributions
+	- Problem: Design NN architectures that are both accurate and efficient is challenging due to extremely large design space.
+	- Key metrics: accuracy and efficiency
+	- Differential NAS at the layer-level: repeat for different inpuyt size/device
+		- Set a microarchitecture of network, composed of "blocks"
+		- Loss: cross-entropy loss + latnecy penalty
+		- Search space, as "stochastic super net"
+
 ## Week 12: ML in the Cloud
 
