@@ -232,5 +232,6 @@
 - Trend: The software ecosystem tunnel becomes a lot wider from the narrow tunnel.
 
 ## Week 11: Efficient ML
+## Week 12: ML in the Cloud
 
-### 
+
