@@ -230,8 +230,10 @@
 
 ### Abstractions for ML Compilations by Tianqi Chen
 - Trend: The software ecosystem tunnel becomes a lot wider from the narrow tunnel.
+<img width="1364" alt="Screen Shot 2022-03-28 at 15 38 18" src="https://user-images.githubusercontent.com/37657480/160498699-451b56ac-7f90-4a55-9782-4605f6a80420.png">
+<img width="1392" alt="Screen Shot 2022-03-28 at 15 47 00" src="https://user-images.githubusercontent.com/37657480/160499393-c3fd0d1c-52d3-46ac-8db5-55a1c87e2508.png">
+
 
 ## Week 11: Efficient ML
 ## Week 12: ML in the Cloud
-
 
