@@ -261,3 +261,18 @@
 
 ## Week 12: ML in the Cloud
 
+### The Sky Above the Cloud
+- Intercloud brokers will act as an intermediary between a user's application and various cloud service providers by designing and executing an optimal cloud setup for that application.
+	- Characterizes the anti-competitive incentives in the status quo: low ingress cost, high egress cost, volume discounts, and proprietary interfaces
+- Limitation: few services will dominate the market, limiting the use of intercloud brokers.
+- Key insights: if implemented, Sky computing aims to bring about more market competition to encourage overall better cloud services.
+
+### FrugalML: How to Use ML Prediction APIs More Accurately and Cheaply
+- Learn a two-phase pipeline
+	- Step 1: Predict with base API to obtain label and confidence 
+	- Step 2: Compare confidence with a threshold
+	- Step 3: If base API is not confident, predict with a 2nd API
+
+### Understanding and Efficiently Consuming ML-as-a-Service by Matei Zaharia
+- FrugalML
+- MASA: ML API Shift Assessment
