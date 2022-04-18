@@ -282,3 +282,4 @@
 
 ### ML Benchmarking by Prof. Vijay Janapa Reddi
 <img width="1270" alt="Screen Shot 2022-04-18 at 13 16 47" src="https://user-images.githubusercontent.com/37657480/163871262-80b66271-8afd-4b59-93c3-974c64c978a6.png">
+
