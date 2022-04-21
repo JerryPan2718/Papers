@@ -114,3 +114,12 @@
 	- Bid Request & Bid Response: Samples
 
 ![Screen Shot 2022-02-24 at 22 03 12](https://user-images.githubusercontent.com/37657480/155799055-2ec4cc3b-400b-408f-882c-f8bf658eab35.png)
+
+## Charting App Developers’ Journey Through Privacy Regulation Features in Ad Networks
+- Contributions
+	- Information about privacy regulation is scattered in several pages buried under multiple layers, and uses terms and language developers do not understand. Ad networks should be responsible for ensuring compliance with regulations, so we suggest dedicating a section to privacy, offering easily accessible configurations, building testing systems for privacy regulations, and creating multimedia materials to promote privacy values in the Ad networks' documentation.
+- Research questions
+	- 1. How do Ad networks present information about privacy regulations in their documentation?
+	- 2. How do developers find ad networks' support for complying with privacy regulations?
+	- 3. How can Ad networks improve their privacy regulations support for developers?
+	
