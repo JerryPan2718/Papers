@@ -288,3 +288,28 @@
 
 ### MLPerf Inference Benchmark
 ### MLPerf Training Benchmark
+
+## Week 14: ML and Security
+
+### Communication-Efficient Learning of Deep Networks from Decentralized Data
+- Contributions
+	- Leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates, termed Federated Learning.
+	- Extensive empirical evaluation on differemt model architectures and datasets: FedSGD & FedAvg.
+
+### Robust Physical-World Attacks on Deep Learning Visual Classification
+- Proposed a general attack algorithm, Robust Physical Perturbations (PR2), to generate robust visual adversarial perturbations under different physical conditions.
+
+### Privacy Accounting and Quality Control in the Sage Differentially Private ML Platform
+- Problem: make differential privacy a practical solution with modern ML applications with growing databases
+- Reuiqrements: manage privacy budget, and allow for:
+	- 1. Query overlapping data subsets of different sizes
+	- 2. Different privacy settings
+	- 3. Continually execute on growing database
+- Contributions
+	- Control privacy budget: block composition
+		- A new privacy loss accounting method that leverages the growing databse regime of ML workloads to keep training models endlessly on a sensitive data.
+		- Efficient training on growing database
+		- As long as database grows, won't run out of budget.
+	- Control privacy/accuracy tradeoff: privacy-adaptive training.
+		- Iteratively retrain model on increasing privacy budget until it's good enough.
+		
