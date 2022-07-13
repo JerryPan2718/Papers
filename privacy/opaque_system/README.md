@@ -4,3 +4,4 @@ Raluca Ada Popa:
 - Delphi: Optimizing Linear Layers.
 - Muse: ML could execute on a client's input without revealing data.
 
+<img width="1330" alt="Screen Shot 2022-07-13 at 9 11 11 AM" src="https://user-images.githubusercontent.com/37657480/178781002-c9fc987e-b638-4d02-933f-ab4e87aeae83.png">
