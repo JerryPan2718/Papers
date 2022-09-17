@@ -13,4 +13,17 @@
   - Exposes knowledge in the data, rather than hiding it in code.
   - Enables the development of shared infrastructure.
   - Overall: enables faster innovation.
-  
+  - Generate network designs automatically. 
+    - Start with high-level abstractions.
+    - Expand detail at each step, based on additional data.
+- Basics of MALT
+  - MALT is an entity-relationship model
+    - Entities represent things: real or abstract
+    - Entities have entity-kinds, names, and attributes
+    - Relationships connect entities, and don't have attributes
+  - MALT queries
+    - Most applications navigate small regions of a model, not an entire graph
+      - e.g. generate config for a single device; figure out what fails if a rack dies
+    - MALT has a query language to make this reasonable efficient
+  - MALTshop storage
+    - A single replicated service for storing MALT models
