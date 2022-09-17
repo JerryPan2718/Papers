@@ -32,4 +32,7 @@
 - Service Mesh: mitigate operational complexity by introducing a dedicated infrastructure layer over microservices without imposing modification on the service implementations.
 
 ## [An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud & Edge Systems](https://www.csl.cornell.edu/~delimitrou/papers/2019.asplos.microservices.pdf)
-- 
+- DeathStarBench: study the architectural characteristics of microservices, their implications in networking and operating systems, their challenges with respect to cluster management, and their tradeoffs in terms of application design and programming frameworks.
+
+
+
