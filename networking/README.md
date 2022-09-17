@@ -27,3 +27,7 @@
     - MALT has a query language to make this reasonable efficient
   - MALTshop storage
     - A single replicated service for storing MALT models
+
+## [Service Mesh: Challenges, State of the Art, and Future Research Opportunities](https://ieeexplore.ieee.org/document/8705911)
+- Service Mesh: mitigate operational complexity by introducing a dedicated infrastructure layer over microservices without imposing modification on the service implementations.
+
