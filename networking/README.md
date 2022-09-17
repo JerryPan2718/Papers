@@ -31,3 +31,5 @@
 ## [Service Mesh: Challenges, State of the Art, and Future Research Opportunities](https://ieeexplore.ieee.org/document/8705911)
 - Service Mesh: mitigate operational complexity by introducing a dedicated infrastructure layer over microservices without imposing modification on the service implementations.
 
+## [An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud & Edge Systems](https://www.csl.cornell.edu/~delimitrou/papers/2019.asplos.microservices.pdf)
+- 
