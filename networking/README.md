@@ -1,5 +1,5 @@
 # Networking 
-## [Experiences with Modeling Network Topologies at Multiple Levels of Abstraction] (https://www.usenix.org/conference/nsdi20/presentation/mogul)
+## [Experiences with Modeling Network Topologies at Multiple Levels of Abstraction](https://www.usenix.org/conference/nsdi20/presentation/mogul)
 - Big networks need automated management
   - Demand forcasting and capacity planning
   - Ordering materials - racks, switches, cables, etc.
