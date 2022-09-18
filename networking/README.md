@@ -34,5 +34,6 @@
 ## [An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud & Edge Systems](https://www.csl.cornell.edu/~delimitrou/papers/2019.asplos.microservices.pdf)
 - DeathStarBench: study the architectural characteristics of microservices, their implications in networking and operating systems, their challenges with respect to cluster management, and their tradeoffs in terms of application design and programming frameworks.
 
-
-
+## [NetHint: White-Box Networking for Multi-Tenant Data Centers](https://hongzhangblaze.github.io/assets/pdf/nethint.pdf)
+- Incentive: adapt data-intensive applications' data transfer schedules based on the cloud network characteristics.
+- NetHint: an interactive mechanism between a cloud tenant and a cloud provider to jointly enhance application performance. The NetHint design provides abundant network information for cloud tenants to compute their optimal transfer schedules, while introducing little overhead for the cloud provider to collect and expose this information.
