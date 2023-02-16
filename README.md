@@ -1,5 +1,4 @@
 # Systems
- (Credit: Paras Jain https://github.com/parasj/papers)
 
 ## Key systems design principles
 * Isolate the common case [Lampson 84]
